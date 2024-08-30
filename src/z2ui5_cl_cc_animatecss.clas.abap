@@ -20,6 +20,7 @@ CLASS Z2UI5_CL_CC_ANIMATECSS IMPLEMENTATION.
 
 
   METHOD load_css.
+
     result = `` && |\n| &&
       `@charset "UTF-8";` && |\n| &&
       `:root {` && |\n| &&
