@@ -1,4 +1,4 @@
-# abap2UI5 - Addon / Custom Controls
+# abap2UI5 Downport - Custom Controls
 
 Downport of the repository https://github.com/abap2UI5-addons/custom-controls
 
