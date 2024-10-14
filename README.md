@@ -1,7 +1,8 @@
-# abap2UI5-custom-controls-downport
+# Downported JS Libraries
+Use abap2UI5 on older R/3 Netweaver Releases!
+<br>
 
-* syntax compatible to old R/3 NetWeaver releases
-* use this version for NW 7.02 (use the main repository for NW 7.50 and higher)
-* your questions, wishes and bugs are welcome, use the original [**repository**](https://github.com/abap2UI5-addons/custom-controls) to create an issue
+🚀 [Get Started](https://abap2ui5.github.io/docs/) <br>
+🐛 [Report Issues](https://github.com/abap2UI5-addons/js-libraries/issues) 
 
-#### _This code is automatically generated and tested with [abaplint](https://abaplint.org/). Thank you [@larshp](https://github.com/larshp)._
+_The code of this repository is automatically generated with [abaplint](https://abaplint.org/) and github actions. Thank you [@larshp](https://github.com/larshp)._
