@@ -6,7 +6,20 @@ CLASS z2ui5_cl_cc_sample_message_m DEFINITION
 
     INTERFACES z2ui5_if_app .
 
-    DATA mt_messaging TYPE z2ui5_cl_cc_messaging=>ty_t_items.
+ TYPES:
+      BEGIN OF ty_s_item,
+        message        TYPE string,
+        description    TYPE string,
+        type           TYPE string,
+        target         TYPE string,
+        additionaltext TYPE string,
+        date           TYPE string,
+        descriptionurl TYPE string,
+        persistent     TYPE string,
+      END OF ty_s_item .
+    TYPES ty_t_items TYPE STANDARD TABLE OF ty_s_item WITH DEFAULT KEY  ##NEEDED.
+
+    DATA mt_messaging TYPE ty_t_items.
 
     "string - constraints
     DATA: mv_maxlength_string            TYPE string,
